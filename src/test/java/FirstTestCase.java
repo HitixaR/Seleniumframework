@@ -7,13 +7,13 @@ public class FirstTestCase {
     @Test
 
     public void firstTestCase()
-            //This is comment
+
     {
        System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\chromedriver.exe");
 
        WebDriver driver=new ChromeDriver();
 
-       driver.get("https://www.amazon.ca");
+       driver.get("https://www.lululemon.com");
     }
 
 }
