@@ -1,3 +1,4 @@
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.WebDriver;
@@ -14,6 +15,7 @@ public class FirstTestCase {
        WebDriver driver=new ChromeDriver();
 
        driver.get("https://www.lululemon.com");
+       driver.close();
     }
 
 }
